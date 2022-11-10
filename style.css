@@ -1,0 +1,276 @@
+*{
+    margin: 0px;
+}
+
+body{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+/*Cabeçalho da página*/
+
+#topo{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    width: 85vw;
+    background-color:#cbcbcbcf;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+#logo figure{
+    display: flex;
+    align-items: center;
+}
+
+#logo img{
+    height: 18vh;
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+    object-fit: cover;
+    font-weight: 400;
+}
+
+#icones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    padding-right: 10px;
+}
+
+.icone_bloco{
+    margin-left: 20px;
+}
+
+.icone_bloco a{
+    text-decoration: none;
+    color: #000;
+}
+
+/* Fim do cabeçalho da página */
+
+
+/* Configurações da página*/
+
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 85vw;
+    justify-content: space-between;
+    padding-top: 15px;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #000;
+}
+
+
+/*Configurações do primeiro tenis, Air Force 1 Low  e configurações gerais da página*/
+
+.nike{
+    display: flex;
+    flex-direction: column;
+    background-color:#f7f7f7;
+    width: 85vw;
+}
+
+.about{
+    text-align: center;
+    background-color: #f7f7f7;
+}
+
+.about h1{
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.about h2{
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.titulo{
+    font-size: 30px;
+    font-weight: 200;
+    margin-bottom: 5px;
+}
+
+.descricao{
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+.beneficios{
+    display: flex;
+    flex-direction: row;
+}
+
+.design{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    background-color: rgb(116, 146, 136);
+    color: #fff;
+    height: 40px;
+    width: 110px;
+    border-radius: 60px;
+    margin-bottom: 10px;
+}
+
+.design a{
+    text-decoration: none;
+    color: #fff;
+}
+
+button{
+    border: none;
+}
+
+button:hover{
+    font-style: italic;
+    transition: all .8s;
+
+}
+    
+
+#banner{  /*revisar */
+    display: flex;
+    background-image: url(https://imgnike-a.akamaihd.net/900x900/018230DD.jpg);
+
+    background-position: right;
+    background-size: cover;
+    order:1;
+    flex:1
+}
+
+
+/*Configurações do segundo tenis, Air Force 1 Low*/
+
+#segundo{
+    display: flex;
+    background-image: url(https://imgnike-a.akamaihd.net/900x900/02445915.jpg);
+    background-position: right;
+    background-size: cover;
+    order:1;
+    flex:1
+}
+
+.design_azul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    background-color: rgb(43, 146, 193);
+    color: #fff;
+    height: 40px;
+    width: 110px;
+    border-radius: 60px;
+    margin-bottom: 10px;
+}
+
+.design_azul a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/*Configurações do terceiro tenis, Nike Air Force 1 '07 LV8*/
+
+#terceiro{
+    display: flex;
+    background-image: url(https://imgnike-a.akamaihd.net/900x900/013887A1.jpg);
+    background-position: right;
+    background-size: cover;
+    order:1;
+    flex:1
+}
+
+.design_laranja{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    background-color: rgb(219, 122, 43);
+    color: #fff;
+    height: 40px;
+    width: 110px;
+    border-radius: 60px;
+    margin-bottom: 10px;
+}
+
+.design_laranja a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/*Configurações do quarto tenis, Air Jordan 1 Hi FlyEase*/
+#quarto{
+    display: flex;
+    background-image: url(https://imgnike-a.akamaihd.net/900x900/016737P1.jpg);
+    background-position: right;
+    background-size: cover;
+    order:1;
+    flex:1
+}
+
+.design_vermelho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    background-color: rgb(173, 42, 42);
+    color: #fff;
+    height: 40px;
+    width: 110px;
+    border-radius: 60px;
+    margin-bottom: 10px;
+}
+
+.design_vermelho a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/*Rodapé da página*/
+
+#rodape{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+    width: 85vw;
+}
+
+#rodape a{
+    text-decoration: none;
+    color:#fff
+}
+
+#rodape a:hover{
+    text-decoration: underline;
+    font-size: 17px;
+}
